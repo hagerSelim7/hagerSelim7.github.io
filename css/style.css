@@ -1871,6 +1871,21 @@ bottom: 35px; */
   }
 }
 
+@media screen and (max-width:844px){
+  .flags-gp{
+    position: unset;
+    bottom: 30px;
+
+  }
+  .flag-col{
+    position: unset!important;
+
+  }
+  .kit-right{
+    text-align: -webkit-center;
+  }
+}
+
 .font--bold{
   font-weight: bold;
 }
@@ -1880,5 +1895,11 @@ bottom: 35px; */
 .rotate-270{
   transform: rotate(270deg);
 }
+.flag-col{
+  position: relative;
+  right: 85px;
 
-
+}
+.padding--small{
+  padding-bottom:5px
+}
