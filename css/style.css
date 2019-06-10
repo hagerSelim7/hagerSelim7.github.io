@@ -2038,3 +2038,8 @@ bottom: 35px; */
 .about-img-p{
   padding-bottom: 17px;
 }
+@media (max-width: 1125px){
+    .top-nav{
+      display: none
+    }
+}
