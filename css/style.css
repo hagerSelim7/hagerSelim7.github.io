@@ -1919,6 +1919,12 @@ box-shadow: 3px 3px 8px -2px rgba(84,84,84,1);
 .display--flex{
   display: flex
 }
+.display--none{
+  display: none;
+}
+.logo-xs{
+  display: none;
+}
 .paddingb--small{
   padding-bottom: 6px;
 }
@@ -2056,6 +2062,9 @@ bottom: 35px; */
   }
   .logo-r{
     display: none;
+  }
+  .logo-xs{
+    display: block;
   }
   
 }

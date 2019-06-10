@@ -203,5 +203,8 @@
     items: 1
   });
 
+  $(function(){
+  })
+
 })(jQuery);
 
