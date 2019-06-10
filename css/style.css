@@ -2043,3 +2043,19 @@ bottom: 35px; */
       display: none
     }
 }
+
+@media(max-width: 768px){
+  #mobile-nav ul{
+    padding-top: 31px!important;
+    float: right!important;
+    text-align: right!important;
+  }
+  #intro .carousel-content{
+  bottom: 177px;
+
+  }
+  .logo-r{
+    display: none;
+  }
+  
+}
