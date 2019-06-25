@@ -249,7 +249,14 @@ h6 {
   left: 0;
   bottom: 0;
 }
-
+.carousel-container{
+  position: relative!important;
+}
+.carousel-content{
+  position:absolute;
+  top: 63px; bottom: 0; left: 0; right: 0;
+  margin: auto;
+}
 #intro .carousel-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -555,7 +562,8 @@ h6 {
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
-  position: fixed;
+  /* position: fixed; */
+  position: relative;
   left: 0;
   top: 0;
   z-index: 999;
@@ -582,7 +590,7 @@ h6 {
   bottom: 0;
   z-index: 998;
   background: rgba(0, 0, 0, 0.8);
-  left: -260px;
+  right: -260px;
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
@@ -664,7 +672,8 @@ body.mobile-nav-active {
 }
 
 body.mobile-nav-active #mobile-nav {
-  left: 0;
+  /* left: 0; */
+  right: 0;
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
@@ -1936,13 +1945,28 @@ box-shadow: 3px 3px 8px -2px rgba(84,84,84,1);
     position: relative!important;
     top: 30px!important;
   }
+  #top-social-icon{
+    padding-right:0px;
+    padding-left:0px;
+  }
 }
-
+@media(max-width:720px){
+  #mobile-nav-toggle{
+    top: -53px;
+  left: 45px;
+  }
+  
+}
+@media (max-width: 1024px) {
+  #intro .carousel-content{
+    bottom: 443px;
+}
+}
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
-  #top-social-icon{
+  #top-nav-icon-list{
     display: none;
   }
   /* .top-nav{
@@ -2138,12 +2162,9 @@ bottom: 35px; */
 .about-img-p{
   padding-bottom: 17px;
 }
-/* @media (max-width: 1125px){
-    .top-nav{
-      display: none
-    } */
-/* } */
-
+@media (max-width: 1125px){
+    
+  }
 @media(max-width: 768px){
   #mobile-nav ul{
     padding-top: 31px!important;
@@ -2200,6 +2221,41 @@ bottom: 35px; */
   }
   
 }
+@media(max-width:924px){
+  #mobile-nav-toggle{
+    position: relative;
+    /* left: 137px; */
+  }
+
+}
+@media(max-width:956px){
+  #top-time{
+    display: none!important;
+  }
+}
+@media(max-width:874px){
+  #top-nav-icon-list{
+    display: none;
+  }
+}
+@media (max-width:995px){
+  #top-social-icon{
+    /* display: none; */
+  }
+  .top-nav-con{
+    padding-right:0px;
+    padding-left:0px;
+  }
+  #mobile-nav-toggle{
+    position: relative;
+    /* left: 161px; */
+  }
+
+  .nav-menu{
+    /* position: relative;
+    left: 182px; */
+  }
+}
 @media (max-width:1107px){
 
   #mobile-nav ul{
@@ -2209,6 +2265,7 @@ bottom: 35px; */
   }
   #intro .carousel-content{
   bottom: 177px;
+  /* bottom:278px; */
 
   }
   #header #logo img {
@@ -2251,8 +2308,8 @@ bottom: 35px; */
       order:1!important
     }
     #mobile-nav-toggle{
-    margin-top: 5px;
-    padding-left: 7px;
+    margin-top: 0px;
+    /* padding-left: 7px; */
 }
 #mobile-nav-toggle i{
   color:white;
