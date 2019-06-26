@@ -252,6 +252,13 @@ h6 {
 .carousel-container{
   position: relative!important;
 }
+#top-mail{
+  margin-right: 0px;
+  margin-left: 18px!important;
+  font-size: 20px;
+  position: relative;
+  bottom: 13px;
+}
 .carousel-content{
   position:absolute;
   top: 63px; bottom: 0; left: 0; right: 0;
@@ -1845,7 +1852,11 @@ box-shadow: 3px 3px 8px -2px rgba(84,84,84,1);
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
-
+@media(max-width: 767px){
+  #top-mail{
+    bottom: 0px!important;
+  }
+}
 @media (min-width: 768px) {
   #contact .contact-address,
   #contact .contact-phone,
