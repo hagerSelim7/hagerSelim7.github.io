@@ -59,7 +59,7 @@
 
     $(document).on('click', '#mobile-nav-toggle', function(e) {
       $('body').toggleClass('mobile-nav-active');
-      $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+      $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars main-color');
       $('#mobile-body-overly').toggle();
     });
 
