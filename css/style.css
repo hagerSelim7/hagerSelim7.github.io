@@ -789,7 +789,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* About Us Section
 --------------------------------*/
-
+.why{
+  padding-top: 10px!important;
+  padding-bottom: 0px;
+  font-size: 17px!important;
+  font-weight: bold;
+}
 .about {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
