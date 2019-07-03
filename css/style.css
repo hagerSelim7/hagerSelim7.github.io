@@ -833,7 +833,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .about .about-card{
   border-radius: 5px!important;
-  max-height: 76px;
+  /* max-height: 76px; */
     min-height:76px;
   
 }
