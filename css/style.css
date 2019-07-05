@@ -1601,7 +1601,7 @@ box-shadow: 3px 3px 8px -2px rgba(84,84,84,1);
 --------------------------------*/
 
 #contact {
-  padding: 60px 0;
+  /* padding: 60px 0; */
 }
 
 #contact .contact-info {
