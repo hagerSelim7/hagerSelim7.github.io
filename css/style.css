@@ -224,6 +224,7 @@ h6 {
   padding-left: 210px;
 
 }
+
 #intro {
   display: table;
   width: 100%;
@@ -2404,4 +2405,84 @@ bottom: 35px; */
 }
 .vision img{
   width: 156px;
+}
+.top-social-icon:hover{
+ 
+}
+
+.top-social-icon li:hover > a,
+.top-social-icon > .menu-active > a {
+  border-bottom: 0px!important
+}
+.top-social-icons1 > li {
+  margin-left: 0px!important;
+}
+.box-iconb{
+  width: 29px;
+    height: 27px;
+    border-radius: 5px;
+    margin-left: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer-iconb {
+  font-size: 21px;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-left: 4px;
+  color: #618a3a;;
+}
+
+.nav-menub ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menub  li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menub  > li {
+  float: left;
+}
+
+.nav-menub  li:hover > ul,
+.nav-menub  li.sfHover > ul {
+  display: block;
+}
+
+.nav-menub  ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menub  ul li {
+  min-width: 180px;
+}
+.social-link{
+  font-size: 22px
+}
+.sat-day{
+  padding-left: 5px;padding-right: 5px;
+}
+.social-listb{
+  padding-left: 15px;list-style: none;
+}
+.nakhlah-link{
+  text-align: right;
+  padding-right: 53px
+}
+@media(max-width:844px){
+  .social-listb{
+    padding-right: 0px;
+  }
+  .nakhlah-link{
+    text-align: right;
+    padding-right: 13px;  }
+ 
 }
