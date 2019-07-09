@@ -219,7 +219,8 @@ h6 {
 # Intro Section
 --------------------------------------------------------------*/
 .padding-bout{
-  padding-right: 219px;
+  /* padding-right: 219px; */
+  padding-right:202px;
   padding-left: 210px;
 
 }
