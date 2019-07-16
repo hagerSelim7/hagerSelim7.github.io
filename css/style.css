@@ -738,7 +738,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
-  color: #333;
+  color: #000000;
+}
+
+.contact-top{
+  position: relative;
+    /* right: -11px; */
+  left: 122px;
 }
 
 /* Section with background
@@ -2385,6 +2391,12 @@ bottom: 35px; */
     margin:0px!important;
   }
 }
+
+@media(max-width:1107px){
+  .contact-top{
+    left:0;
+  }
+}
 @media(max-width:768px){
   .top-nav{
     height:auto;
@@ -2400,11 +2412,12 @@ bottom: 35px; */
 
 
 .vision{
-  padding-right: 166px;
+  /* padding-right: 166px; */
     padding-bottom: 8px;
 }
 .vision img{
-  width: 156px;
+  /* width: 156px; */
+  width: 119px;
 }
 .top-social-icon:hover{
  
