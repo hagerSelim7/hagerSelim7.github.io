@@ -589,7 +589,8 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #8BC34A;;
+  /* color: #8BC34A; */
+  color:white!important;
 }
 
 /* Mobile Nav Styling */
