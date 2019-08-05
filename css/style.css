@@ -2502,3 +2502,47 @@ bottom: 35px; */
     padding-right: 13px;  }
  
 }
+
+/* Requests*/
+.padding-right-small{
+  padding-right: 5px;
+}
+.request--p{
+  padding-bottom: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+.form-container{
+  border: 1px solid #80ae42;
+  padding: 14px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.rtl-direction{
+  text-align: right;
+  direction: rtl;
+}
+.send-btn{
+  background-color: #618a3a;
+  color: white;
+}
+.laws p{
+  padding-bottom: 5px!important;
+  margin-bottom: 0px!important;
+}
+.full-width{
+  width: 100%
+}
+/*Mosaned*/
+.main-row-padding{
+  padding-bottom: 20px;
+}
+
+.cover-text{
+  position: relative;
+  top: 50%;
+
+}
+.main--color{
+  color:#80ae42
+}
